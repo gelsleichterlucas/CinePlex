@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 30px;
+    margin-left: 10px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid red;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .filme {
+    display: flex;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+  }
+  
+  .filme img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  .classificacao,
+  .duracao {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .classificacao span,
+  .duracao span {
+    color: #fff6f6;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  
+  .datas span {
+    color: black;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .horarios p {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+
+  .inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .local {
+    font-size: 14px;
+
+  }
+
+  .menu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 10px 0;
+    border-right: red;
+   }
+
+   .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .logo {
+    font-size: 24px;
+    color: white;
+  }
+
+  header {
+    background-color: #000000;
+    padding: 10px 20px;
+    }
+
+    .top-border {
+        height: 3px;
+        background-color: red;
+      }
